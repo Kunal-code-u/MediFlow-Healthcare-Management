@@ -107,5 +107,4 @@ MediFlow is a modern, beautifully designed healthcare patient management applica
 
 ---
 
-**MediFlow** - Where modern design meets exceptional healthcare management. Built with the latest technologies and designed for the future of healthcare.
 
