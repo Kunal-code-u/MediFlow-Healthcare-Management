@@ -1,0 +1,38 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Medical Cross with Heartbeat -->
+    <rect x="8" y="4" width="4" height="16" fill="url(#logoGradient)" rx="1"/>
+    <rect x="4" y="8" width="16" height="4" fill="url(#logoGradient)" rx="1"/>
+    
+    <!-- Heartbeat Line -->
+    <path d="M25 12 L28 9 L31 12 L34 7 L37 12 L40 6 L43 12 L46 9 L49 12" 
+          stroke="url(#logoGradient)" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Pulse Dots -->
+    <circle cx="26" cy="12" r="1" fill="url(#logoGradient)" opacity="0.8"/>
+    <circle cx="44" cy="12" r="1" fill="url(#logoGradient)" opacity="0.8"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="70" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#logoGradient)">
+    MediFlow
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="70" y="50" font-family="Arial, sans-serif" font-size="12" fill="#64748b">
+    Healthcare Management
+  </text>
+</svg>
+
